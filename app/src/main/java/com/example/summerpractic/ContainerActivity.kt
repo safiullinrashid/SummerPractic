@@ -1,5 +1,4 @@
 package com.example.summerpractic
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.fragment.NavHostFragment
@@ -18,11 +17,6 @@ class ContainerActivity : AppCompatActivity() {
         findViewById<BottomNavigationView>(R.id.bnv_main).apply {
             setupWithNavController(controller)
 
-//            setOnItemSelectedListener {
-//                when (it.itemId) {
-//                    R.id.mainFragment -> navigateUpTo()
-//                }
-//            }
         }
     }
 }
